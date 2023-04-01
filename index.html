@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Modal window</title>
+</head>
+
+<body>
+  <button class="show-modal">What is DOM?</button>
+  <button class="show-modal2">Js Built-in functions of the DOM</button>
+  <button class="show-modal3">More Functions</button>
+
+  <div class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <h1>What is DOM? 😍</h1>
+    <p>
+      DOM stands for Document Object Model. It is a programming interface for web documents, which provides a structured
+      representation of the HTML or XML document. The DOM represents the page so that programs can change the document
+      structure, style, and content. The DOM is commonly used with scripting languages like JavaScript to manipulate the
+      content and behavior of web pages dynamically.
+      <br>
+      In simpler terms, the DOM is the way in which web browsers organize and represent web pages internally. It allows
+      developers to access and manipulate the various elements of a web page, such as text, images, forms, and links,
+      using scripting languages like JavaScript.
+    </p>
+  </div>
+
+  <div class="modal2 hidden">
+    <button class="close-modal2">&times;</button>
+    <h1>Js Built-in functions of the DOM 😍</h1>
+    <p>
+      Here are some built-in JavaScript functions of the DOM (Document Object Model):
+      <br>
+      getElementById(): This method is used to get a reference to a specific HTML element on the page by its unique ID.
+      <br>
+      getElementsByClassName(): This method is used to get a collection of HTML elements that have the same class name.
+      <br>
+      getElementsByTagName(): This method is used to get a collection of HTML elements that have the same tag name.
+      <br>
+      createElement(): This method is used to create a new HTML element.
+      <br>
+      appendChild(): This method is used to add a new child element to an existing HTML element.
+      <br>
+      removeChild(): This method is used to remove a child element from an existing HTML element.
+      <br>
+      setAttribute(): This method is used to set the value of an attribute on an HTML element.
+      <br>
+      getAttribute(): This method is used to get the value of an attribute on an HTML element.
+      <br>
+      innerHTML(): This property is used to get or set the HTML content inside an element.
+      <br>
+      addEventListener(): This method is used to add an event listener to an HTML element, so that a JavaScript function
+      is executed when the specified event occurs.
+    </p>
+  </div>
+
+  <div class="modal3 hidden">
+    <button class="close-modal3">&times;</button>
+    <h1>More Js Buit-in Functions of DOM 😍</h1>
+    <p>
+      Sure, here are some additional built-in JavaScript functions of the DOM:
+      <br>
+      querySelector(): This method is used to get a reference to the first HTML element that matches a specified CSS
+      selector.
+      <br>
+      querySelectorAll(): This method is used to get a collection of HTML elements that match a specified CSS selector.
+      <br>
+      classList: This property is used to get or set the class name(s) of an HTML element.
+      <br>
+      style: This property is used to get or set the inline style of an HTML element.
+      <br>
+      scrollIntoView(): This method is used to scroll the viewport to a specified HTML element.
+      <br>
+      getBoundingClientRect(): This method is used to get the size and position of an HTML element relative to the
+      viewport.
+      <br>
+      requestAnimationFrame(): This method is used to request that an animation be performed, and then execute a
+      JavaScript function when the next repaint occurs.
+      <br>
+      createElementNS(): This method is used to create a new SVG or MathML element.
+      <br>
+      getComputedStyle(): This method is used to get the computed style of an HTML element.
+      <br>
+      focus(): This method is used to give focus to an HTML element.
+    </p>
+  </div>
+
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
